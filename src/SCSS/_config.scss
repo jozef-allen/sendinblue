@@ -1,0 +1,26 @@
+@import url(//db.onlinewebfonts.com/c/24ccee2ccbf3d81b58e3ef583a2431e5?family=Publico+Text+Web);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+$light-blue: #0092ff;
+$input-grey: #3c4858;
+$grey: #B1C1D2;
+
+%btn {
+    border-radius: 3px;
+    font-family: inherit;
+    display: block;
+    margin: 0 auto;
+    width: 82%;
+    font-size: 16px;
+    padding: 10px;
+}
+
+%google-apple-logo {
+    position: absolute;
+    left: 133px;
+}
+
+%center {
+    display: block;
+    margin: 0 auto;
+}

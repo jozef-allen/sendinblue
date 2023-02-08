@@ -1,0 +1,234 @@
+@import url(//db.onlinewebfonts.com/c/24ccee2ccbf3d81b58e3ef583a2431e5?family=Publico+Text+Web);
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+.apple-btn, .google-btn {
+  border-radius: 3px;
+  font-family: inherit;
+  display: block;
+  margin: 0 auto;
+  width: 82%;
+  font-size: 16px;
+  padding: 10px;
+}
+
+button.submit {
+  background: #0092ff;
+  border: 1px solid #0092ff;
+  color: #fff;
+  font-weight: 500;
+  margin-top: 24px;
+  border-radius: 3px;
+  font-family: inherit;
+  display: block;
+  margin: 0 auto;
+  width: 82%;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.apple-logo, .google-logo {
+  position: absolute;
+  left: 133px;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.login {
+  background-color: white;
+  width: 27.5rem;
+  display: block;
+  margin: 0 auto;
+  border-radius: 3px;
+  padding-bottom: 40px;
+}
+
+h1 {
+  font-family: "Publico Text Web", serif;
+  color: #091e3f;
+  font-size: 1.51571657rem;
+  line-height: 2rem;
+  text-align: center;
+  padding-top: 39px;
+  padding-bottom: 14px;
+  letter-spacing: -1px;
+}
+
+.label {
+  color: #3c4858;
+  font-weight: 700;
+  font-size: 1rem;
+  display: block;
+}
+
+.label-container {
+  width: 82%;
+  display: block;
+  margin: 0 auto;
+  padding: 7px 0;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+input {
+  border-radius: 3px;
+  border: 1px solid #B1C1D2;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 9px;
+  font-family: inherit;
+  color: #3c4858;
+  width: 77%;
+}
+
+input.one {
+  margin-bottom: 20px;
+}
+
+input:focus-within {
+  box-shadow: 0 0 0 2px #c9e1f4;
+  outline: none;
+}
+
+.eye-span {
+  position: absolute;
+  right: 53px;
+  top: 10px;
+  color: #556170;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.eye {
+  width: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button.submit {
+  background: #0092ff;
+  border: 1px solid #0092ff;
+  border-radius: 3px;
+  color: #fff;
+  font-family: inherit;
+  display: block;
+  margin: 0 auto;
+  width: 82%;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px;
+  margin-top: 24px;
+}
+
+button.submit:hover {
+  background: #0C65CF;
+  border: 1px solid #0C65CF;
+}
+
+.wrapper {
+  background-color: #044A75;
+  height: 100vh;
+}
+
+.logo-wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 57px;
+  padding-bottom: 17px;
+}
+
+.logo {
+  height: 41px;
+  display: inline-block;
+}
+
+.separator-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 22px;
+  width: 82%;
+}
+
+.separator::before,
+.separator::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #B1C1D2;
+}
+
+.separator:not(:empty)::before {
+  margin-right: 0.25em;
+}
+
+.separator:not(:empty)::after {
+  margin-left: 0.25em;
+}
+
+.google-btn {
+  margin-top: 18px;
+  padding-left: 66px;
+  background-color: white;
+  font-weight: 400;
+  border: 1px solid #0092ff;
+}
+
+.apple-btn {
+  margin-top: 17px;
+  padding-left: 53px;
+  background-color: white;
+  font-weight: 400;
+  border: 1px solid #0092ff;
+}
+
+.button-container {
+  position: relative;
+}
+
+.google-logo {
+  top: 8px;
+  width: 27px;
+}
+
+.apple-logo {
+  top: 7px;
+  width: 27px;
+}
+
+.google-logo:hover,
+.apple-logo:hover {
+  cursor: pointer;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  margin-top: 16px;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #0092ff;
+  text-decoration: underline;
+}/*# sourceMappingURL=style.css.map */

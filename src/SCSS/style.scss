@@ -1,0 +1,198 @@
+@import 'config';
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    text-decoration: none;
+}
+
+.login {
+    background-color: white;
+    width: 27.5rem;
+    @extend %center;
+    border-radius: 3px;
+    padding-bottom: 40px;
+}
+
+h1 {
+    font-family: 'Publico Text Web', serif;
+    color: #091e3f;
+    font-size: 1.51571657rem;
+    line-height: 2rem;
+    text-align: center;
+    padding-top: 39px;
+    padding-bottom: 14px;
+    letter-spacing: -1px;
+}
+
+.label {
+    color: $input-grey;
+    font-weight: 700;
+    font-size: 1rem;
+    display: block;
+}
+
+.label-container {
+    width: 82%;
+    @extend %center;
+    padding: 7px 0;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+input {
+    border-radius: 3px;
+    border: 1px solid $grey;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 9px;
+    font-family: inherit;
+    color: $input-grey;
+    width: 77%;
+}
+
+input.one {
+    margin-bottom: 20px;
+}
+
+input:focus-within {
+    box-shadow: 0 0 0 2px #c9e1f4;
+    outline: none;
+}
+
+.eye-span {
+    position: absolute;
+    right: 53px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.eye {
+    width: 20px;
+}
+
+button.submit {
+    @extend btn;
+    background: $light-blue;
+    border: 1px solid $light-blue;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 24px;
+}
+
+button.submit:hover {
+    background: #0C65CF;
+    border: 1px solid #0C65CF;
+}
+
+.wrapper {
+    background-color: #044A75;
+    height: 100vh;
+}
+
+.logo-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 57px;
+    padding-bottom: 17px;
+}
+
+.logo {
+    height: 41px;
+    display: inline-block;
+}
+
+.separator-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 22px;
+    width: 82%;
+}
+
+.separator::before,
+.separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid $grey;
+}
+
+.separator:not(:empty)::before {
+    margin-right: .25em;
+}
+
+.separator:not(:empty)::after {
+    margin-left: .25em;
+}
+
+.google-btn {
+    @extend %btn;
+    margin-top: 18px;
+    padding-left: 66px;
+    background-color: white;
+    font-weight: 400;
+    border: 1px solid $light-blue;
+
+}
+
+.apple-btn {
+    @extend %btn;
+    margin-top: 17px;
+    padding-left: 53px;
+    background-color: white;
+    font-weight: 400;
+    border: 1px solid $light-blue;
+
+}
+
+.button-container {
+    position: relative;
+}
+
+.google-logo {
+    @extend %google-apple-logo;
+    top: 8px;
+    width: 27px;
+}
+
+.apple-logo {
+    @extend %google-apple-logo;
+    top: 7px;
+    width: 27px;
+}
+
+.google-logo:hover,
+.apple-logo:hover,
+button:hover {
+    cursor: pointer;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    margin-top: 16px;
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+footer a:hover {
+    color: $light-blue;
+    text-decoration: underline;
+}
